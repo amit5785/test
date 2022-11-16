@@ -1,0 +1,22 @@
+.amit2{
+  text-align: center;
+}
+.amit{
+  color:chartreuse;
+  pointer-events: none;
+}
+
+@media(prefers-reduced-motion: no-preference){
+  .amit{
+    animation: aks infinite 10s linear;
+  }
+}
+
+@keyframes aks {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
