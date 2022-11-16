@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Amit from './Amit';
+import React from 'react';
 
 
 function App() {
@@ -29,3 +30,4 @@ function App() {
 }
 
 export default App;
+
